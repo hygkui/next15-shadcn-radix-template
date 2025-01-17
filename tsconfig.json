@@ -18,6 +18,7 @@
         "name": "next"
       }
     ],
+    "baseUrl": "./", // if src, then "./src", it will set the @ alias to ./src
     "paths": {
       "@/*": ["./*"]
     }

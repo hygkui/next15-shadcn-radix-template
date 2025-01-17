@@ -7,10 +7,10 @@ export default function Home() {
       <div className="container mx-auto max-w-6xl">
         <header className="mb-16 text-center">
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            Next.js 15 Advanced Template
+            {process.env.APP_NAME}
           </h1>
           <p className="text-2xl text-gray-600 max-w-3xl mx-auto">
-            A cutting-edge web application starter integrating the latest React 19 and Next.js 15 technologies with modern UI components and developer experience.
+            {process.env.APP_DESCRIPTION}
           </p>
         </header>
 
